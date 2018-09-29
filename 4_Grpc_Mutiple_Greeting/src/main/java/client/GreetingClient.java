@@ -1,10 +1,7 @@
 package client;
 
 import com.proto.dummy.DummyServiceGrpc;
-import com.proto.greet.GreetRequest;
-import com.proto.greet.GreetResponse;
-import com.proto.greet.GreetServiceGrpc;
-import com.proto.greet.Greeting;
+import com.proto.greet.*;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
@@ -20,6 +17,8 @@ public class GreetingClient {
         System.out.println("Creating stub");
 
         GreetServiceGrpc.GreetServiceBlockingStub greetClient = GreetServiceGrpc.newBlockingStub(channel);
+
+        /*
         Greeting greeting = Greeting.newBuilder()
                 .setFirstName("Avinash")
                 .setLastName("Tiwari")
@@ -31,7 +30,14 @@ public class GreetingClient {
 
      GreetResponse response = greetClient.greet(greetequest);
         System.out.println("Result " + response.getResult());
-
+*/
+        GreetManyTimesRequest request = GreetManyTimesRequest.newBuilder()
+                                        .setGreeting(Greeting.newBuilder().setFirstName("Avinash"))
+                .build();
+        greetClient.greetManyTimes(request)
+        .forEachRemaining(response -> {
+            System.out.println(response.getResult());
+        });
         System.out.println("Shutting down channel");
 
         channel.shutdown();
