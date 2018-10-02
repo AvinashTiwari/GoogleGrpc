@@ -6,13 +6,18 @@ import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
 public class GreetingClient {
+    ManagedChannel channel;
+    public void run(){
+        channel = ManagedChannelBuilder.forAddress("localhost", 50051)
+                .usePlaintext()
+                .build();
+
+    }
 
     public static void main(String[] args) {
         System.out.println("Hello I am Client.");
 
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051)
-                .usePlaintext()
-                .build();
+        GreetingClient main  =new GreetingClient();
 
         System.out.println("Creating stub");
 
