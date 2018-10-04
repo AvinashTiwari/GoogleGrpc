@@ -58,6 +58,8 @@ public class GreetServiceImplementation extends GreetServiceGrpc.GreetServiceImp
             @Override
             public void onError(Throwable t) {
                 // client sends an error
+
+                System.out.println("Error " + t.getLocalizedMessage());
             }
 
             @Override
@@ -65,14 +67,14 @@ public class GreetServiceImplementation extends GreetServiceGrpc.GreetServiceImp
                 // client is done
                 responseObserver.onNext(
                         LongGreetResponse.newBuilder()
-                                .setResult(result)
+                                .setResult(result  + "test ")
                                 .build()
                 );
                 responseObserver.onCompleted();
             }
         };
 
-
+          System.out.println("Recived data 1");
         return requestObserver;
     }
 }

@@ -21,7 +21,7 @@ public class GreetingClient {
     }
 
     private void run()  {
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051)
+        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8085)
                 .usePlaintext()
                 .build();
 

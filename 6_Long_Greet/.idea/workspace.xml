@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3ac49a-9cb6-44f3-95b9-89ce5af953b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/unarygrc_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/unarygrc_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/proto/greet/GreetServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/proto/greet/GreetServiceGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/greet/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/greet/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/client/GreetingClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/client/GreetingClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBaseDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBaseDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBlockingStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFileDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFileDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFutureStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceImplBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceMethodDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceMethodDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$MethodHandlers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/server/GreetServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/server/GreetServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/client/GreetingClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/client/GreetingClient$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/client/GreetingClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/server/GreetServiceImplementation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/server/GreetServiceImplementation.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/GreetingClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/proto/greet/greet.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/greet/greet.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/GreetingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/GreetingServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -81,8 +65,9 @@
           <entry key="project.open.time.117" value="1" />
           <entry key="project.open.time.128" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.94" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -99,13 +84,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="249" />
+          <entry key="java" value="333" />
           <entry key="proto" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="249" />
+          <entry key="JAVA" value="333" />
           <entry key="PROTO" value="94" />
         </counts>
       </usages-collector>
@@ -116,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/proto/greet/greet.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="629">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -125,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+            <state relative-caret-position="157">
+              <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -134,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/GreetingClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="102">
+              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -143,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetingServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="327">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -523,9 +508,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/proto/greet/greet.proto" />
         <option value="$PROJECT_DIR$/src/main/java/client/GreetingClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/GreetingServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java" />
       </list>
     </option>
   </component>
@@ -549,6 +535,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -644,15 +632,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538616320685" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538696306718" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -741,16 +727,17 @@
       <workItem from="1538438847888" duration="1199000" />
       <workItem from="1538537561147" duration="3113000" />
       <workItem from="1538615195764" duration="1005000" />
+      <workItem from="1538694922458" duration="1355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6300000" />
+    <option name="totallyTimeSpent" value="7655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -759,7 +746,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -791,29 +778,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/proto/greet/greet.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetingServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="327">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/GreetingClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="102">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
         </state>
       </provider>
     </entry>
