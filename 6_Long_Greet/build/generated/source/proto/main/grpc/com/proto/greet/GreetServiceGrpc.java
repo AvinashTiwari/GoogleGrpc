@@ -123,7 +123,7 @@ public final class GreetServiceGrpc {
         if ((getLongGreetMethod = GreetServiceGrpc.getLongGreetMethod) == null) {
           GreetServiceGrpc.getLongGreetMethod = getLongGreetMethod = 
               io.grpc.MethodDescriptor.<com.proto.greet.LongGreetRequest, com.proto.greet.LongGreetResponse>newBuilder()
-              .setType(io.grpc.MethodDescriptor.MethodType.BIDI_STREAMING)
+              .setType(io.grpc.MethodDescriptor.MethodType.CLIENT_STREAMING)
               .setFullMethodName(generateFullMethodName(
                   "greet.GreetService", "LongGreet"))
               .setSampledToLocalTracing(true)
@@ -214,7 +214,7 @@ public final class GreetServiceGrpc {
                   this, METHODID_GREET_MANY_TIMES)))
           .addMethod(
             getLongGreetMethodHelper(),
-            asyncBidiStreamingCall(
+            asyncClientStreamingCall(
               new MethodHandlers<
                 com.proto.greet.LongGreetRequest,
                 com.proto.greet.LongGreetResponse>(
@@ -270,7 +270,7 @@ public final class GreetServiceGrpc {
      */
     public io.grpc.stub.StreamObserver<com.proto.greet.LongGreetRequest> longGreet(
         io.grpc.stub.StreamObserver<com.proto.greet.LongGreetResponse> responseObserver) {
-      return asyncBidiStreamingCall(
+      return asyncClientStreamingCall(
           getChannel().newCall(getLongGreetMethodHelper(), getCallOptions()), responseObserver);
     }
   }

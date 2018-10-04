@@ -66,14 +66,14 @@ public final class Greet {
       " \001(\0132\017.greet.Greeting\"(\n\026GreetManyTimesR" +
       "esponse\022\016\n\006result\030\001 \001(\t\"5\n\020LongGreetRequ" +
       "est\022!\n\010greeting\030\001 \001(\0132\017.greet.Greeting\"#" +
-      "\n\021LongGreetResponse\022\016\n\006result\030\001 \001(\t2\335\001\n\014" +
+      "\n\021LongGreetResponse\022\016\n\006result\030\001 \001(\t2\333\001\n\014" +
       "GreetService\0224\n\005Greet\022\023.greet.GreetReque" +
       "st\032\024.greet.GreetResponse\"\000\022Q\n\016GreetManyT" +
       "imes\022\034.greet.GreetManyTimesRequest\032\035.gre" +
-      "et.GreetManyTimesResponse\"\0000\001\022D\n\tLongGre" +
+      "et.GreetManyTimesResponse\"\0000\001\022B\n\tLongGre" +
       "et\022\027.greet.LongGreetRequest\032\030.greet.Long" +
-      "GreetResponse\"\000(\0010\001B\023\n\017com.proto.greetP\001" +
-      "b\006proto3"
+      "GreetResponse\"\000(\001B\023\n\017com.proto.greetP\001b\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
