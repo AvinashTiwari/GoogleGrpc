@@ -46,6 +46,7 @@ public class GreetingClient {
 
     private void doClientStreamingCall(ManagedChannel channel) {
         // create an asynchronous client
+
         GreetServiceGrpc.GreetServiceStub asyncClient = GreetServiceGrpc.newStub(channel);
 
         CountDownLatch latch = new CountDownLatch(1);
@@ -102,7 +103,7 @@ public class GreetingClient {
         requestObserver.onCompleted();
 
         try {
-            latch.await(3L, TimeUnit.SECONDS);
+            latch.await(5L, TimeUnit.SECONDS);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
