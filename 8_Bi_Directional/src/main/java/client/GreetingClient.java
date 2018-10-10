@@ -4,6 +4,11 @@ import com.proto.dummy.DummyServiceGrpc;
 import com.proto.greet.*;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import io.grpc.stub.StreamObserver;
+
+import java.util.Arrays;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 
 public class GreetingClient {
 
@@ -16,31 +21,52 @@ public class GreetingClient {
 
         System.out.println("Creating stub");
 
-        GreetServiceGrpc.GreetServiceBlockingStub greetClient = GreetServiceGrpc.newBlockingStub(channel);
+        GreetServiceGrpc.GreetServiceStub asyncClient = GreetServiceGrpc.newStub(channel);
 
-        /*
-        Greeting greeting = Greeting.newBuilder()
-                .setFirstName("Avinash")
-                .setLastName("Tiwari")
-                .build();
+        CountDownLatch latch = new CountDownLatch(1);
 
-        GreetRequest greetequest = GreetRequest.newBuilder()
-                .setGreeting(greeting)
-                .build();
+        StreamObserver<GreetEveryoneRequest> requestObserver = asyncClient.greetEveryone(new StreamObserver<GreetEveryoneResponse>() {
+            @Override
+            public void onNext(GreetEveryoneResponse value) {
+                System.out.println("Response from server: " + value.getResult());
+            }
 
-     GreetResponse response = greetClient.greet(greetequest);
-        System.out.println("Result " + response.getResult());
-*/
-        GreetManyTimesRequest request = GreetManyTimesRequest.newBuilder()
-                                        .setGreeting(Greeting.newBuilder().setFirstName("Avinash"))
-                .build();
-        greetClient.greetManyTimes(request)
-        .forEachRemaining(response -> {
-            System.out.println(response.getResult());
+            @Override
+            public void onError(Throwable t) {
+                System.out.println("Error" + t.getMessage());
+                latch.countDown();
+            }
+
+            @Override
+            public void onCompleted() {
+                System.out.println("Server is done sending data");
+                latch.countDown();
+            }
         });
-        System.out.println("Shutting down channel");
 
-        channel.shutdown();
+        Arrays.asList("A", "B", "C", "D").forEach(
+                name -> {
+                    System.out.println("Sending: " + name);
+                    requestObserver.onNext(GreetEveryoneRequest.newBuilder()
+                            .setGreeting(Greeting.newBuilder()
+                                    .setFirstName(name))
+                            .build());
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+        );
+
+        requestObserver.onCompleted();
+
+        try {
+            latch.await(3, TimeUnit.SECONDS);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
 
     }
 }
