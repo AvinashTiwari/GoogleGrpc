@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b0278a2-ce59-49d4-a9e5-8e9b99a4d51a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/unarygrc_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/unarygrc_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/client/GreetingClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBaseDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBaseDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBlockingStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFileDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFileDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFutureStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceImplBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceMethodDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceMethodDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$MethodHandlers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/server/GreetServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/server/GreetServiceImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/server/GreetingServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/server/GreetingServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/GreetingClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/GreetingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/GreetingServer.java" afterDir="false" />
+    <list default="true" id="1a1c6bf0-8554-4daf-838a-e581f0f3be24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_context_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_core_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_netty_shaded_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_lite_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_stub_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_api_0_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_contrib_grpc_metrics_0_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/unarygrc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/unarygrc_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/unarygrc_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/CalculatorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/CalculatorServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/CalculatorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/calculator/calculator.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Bi_Directional/.idea/modules/unarygrc_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../8_Bi_Directional/.idea/modules/unarygrc_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Bi_Directional/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8_Bi_Directional/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -56,11 +64,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="unarygrc" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="unarygrc" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -77,38 +80,35 @@
     </system>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1262360491">
+    <session id="-419685675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.129" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
-          <entry key="proto" value="2" />
+          <entry key="java" value="3" />
+          <entry key="proto" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="PROTO" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="PROTO" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="41" />
-          <entry key="proto" value="150" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="41" />
-          <entry key="PROTO" value="150" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -116,46 +116,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/calculator/calculator.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/CalculatorClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#2246#2247#0" expanded="true" />
-                <element signature="e#2308#2309#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetingServer.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="25" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/GreetingClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="918">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/greet/greet.proto">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/CalculatorServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="102">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/CalculatorServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -368,7 +389,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6151522375478" />
+        <entry key="$PROJECT_DIR$" value="6151694070677" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3531108859" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -524,6 +545,7 @@
         <entry key="$PROJECT_DIR$/../5_Grpc_Prime_Number_Decompsition" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../6_Long_Greet" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../7_Compute_Average" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../8_Bi_Directional" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
@@ -531,10 +553,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/greet/greet.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/server/GreetingServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/GreetingClient.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/calculator/calculator.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/client/CalculatorClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/CalculatorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/CalculatorServer.java" />
       </list>
     </option>
   </component>
@@ -543,6 +565,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="611" />
@@ -556,37 +584,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -594,7 +620,7 @@
             </path>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -602,29 +628,31 @@
             </path>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unarygrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8_Bi_Directional" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="9_Bi_Find_Maxium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="greet" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539131995236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539218378200" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -641,9 +669,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GreetingClient">
-    <configuration name="GreetingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.GreetingClient" />
+  <component name="RunManager" selected="Application.CalculatorClient">
+    <configuration name="CalculatorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.CalculatorClient" />
       <module name="unarygrc_main" />
       <extension name="coverage">
         <pattern>
@@ -655,8 +683,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.GreetingServer" />
+    <configuration name="CalculatorServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.CalculatorServer" />
       <module name="unarygrc_main" />
       <extension name="coverage">
         <pattern>
@@ -668,7 +696,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="8_Bi_Directional [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="9_Bi_Find_Maxium [extractProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -679,14 +707,14 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="extractProto" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="8_Bi_Directional [generateProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="9_Bi_Find_Maxium [generateProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -705,17 +733,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.8_Bi_Directional [generateProto]" />
-      <item itemvalue="Application.GreetingServer" />
-      <item itemvalue="Gradle.8_Bi_Directional [clean]" />
-      <item itemvalue="Application.GreetingClient" />
+      <item itemvalue="Gradle.9_Bi_Find_Maxium [extractProto]" />
+      <item itemvalue="Gradle.9_Bi_Find_Maxium [generateProto]" />
+      <item itemvalue="Application.CalculatorClient" />
+      <item itemvalue="Application.CalculatorServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GreetingClient" />
-        <item itemvalue="Application.GreetingServer" />
-        <item itemvalue="Gradle.8_Bi_Directional [generateProto]" />
-        <item itemvalue="Gradle.8_Bi_Directional [clean]" />
+        <item itemvalue="Application.CalculatorClient" />
+        <item itemvalue="Application.CalculatorServer" />
+        <item itemvalue="Gradle.9_Bi_Find_Maxium [generateProto]" />
+        <item itemvalue="Gradle.9_Bi_Find_Maxium [extractProto]" />
       </list>
     </recent_temporary>
   </component>
@@ -724,53 +752,52 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b0278a2-ce59-49d4-a9e5-8e9b99a4d51a" name="Default Changelist" comment="" />
-      <created>1539044538766</created>
+      <changelist id="1a1c6bf0-8554-4daf-838a-e581f0f3be24" name="Default Changelist" comment="" />
+      <created>1539216181722</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1539044538766</updated>
-      <workItem from="1539044556498" duration="1062000" />
-      <workItem from="1539129776538" duration="2094000" />
-      <workItem from="1539215781593" duration="8000" />
+      <updated>1539216181722</updated>
+      <workItem from="1539216196729" duration="1280000" />
+      <workItem from="1539217746664" duration="532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3164000" />
+    <option name="totallyTimeSpent" value="1812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,47 +806,48 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/greet/GreetEveryoneRequestOrBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/proto/calculator/calculator.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetServiceImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/CalculatorServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/GreetingServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/CalculatorServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="25" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="21">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/greet/greet.proto">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        <state relative-caret-position="918">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/GreetingClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/CalculatorClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="137">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
